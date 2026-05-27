@@ -1,71 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cidadão ativo</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Saúde Comunitária</h1>
-    <p>A saúde pública vai muito além do atendimento médico individual. Ela engloba um conjunto de medidas coletivas focadas em <strong>proteger, promover e recuperar a saúde da população</strong> por meio de políticas do governo, saneamento básico e controle de doenças.</p>
+# Cidadão Ativo
 
-<section class="container-problemas">
-    <h2>Principais Problemas Identificados</h2>
+Projeto acadêmico desenvolvido para a disciplina de Padrões Web.
 
-    <div class="cards-grid">
+## Objetivo
+Conectar cidadãos a ações sociais e denúncias comunitárias.
 
-        <!-- Primeiro Card-->
-         <div class="card-problema">
-            <div class="card-icone">🏥</div>
-            <h3>UBS Lotada</h3>
-            <p>Longas Filas de espera e unidades de saúde sobrecarregadas, dificultando o atendimento.</p>
-         </div>
+## Tecnologias
+- HTML
+- CSS
+- JavaScript
 
-         <!-- Segundo Card-->
-         <div class="card-problema">
-            <div class="card-icone">💊</div>
-            <h3>Falta de Remédio</h3>
-            <p>Desabastecimento de medicamentos essenciais e de uso contínuo nas farmácias populares e postos de saúde.</p>
-         </div>
-
-         <!-- Terceiro Card-->
-         <div class="card-problema">
-            <div class="card-icone">🦟</div>
-            <h3>Foco de Dengue</h3>
-            <p>Áreas com acúmulo de água parada que favorecem a proliferação do mosquito transmissor da doença.</p>
-         </div>
-
-         <!-- Quarto Card-->
-         <div class="card-problema">
-            <div class="card-icone">🗑️</div>
-            <h3>Lixo Descartado Errado</h3>
-            <p>Descarte inadequado de resíduos e entulhos nos arredores de unidades médicas, gerando riscos de contaminação.</p>
-         </div>
-
-         <!-- Quinto Card-->
-         <div class="card-problema">
-            <div class="card-icone">😠</div>
-            <h3>Atendimento Ruim</h3>
-            <p>Falta de acolhimento, triagem ineficiente e canais de comunicação falhos entre o cidadão e a gestão de saúde.</p>
-         </div>
-    
-    </div>
-</section>
-
-<div class="botoes-acoes">
-    
-    <a href="denuncia-saude.html" class="btn">
-        Fazer denúncia
-    </a>
-
-    <a href="voluntariado-saude.html" class="btn">
-        Quero ser voluntário
-    </a>
-
-</div>
-
-
-
-</body>
-</html>
+## Integrantes
+- Lucas
+- etc...
