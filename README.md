@@ -12,4 +12,8 @@ Conectar cidadãos a ações sociais e denúncias comunitárias.
 
 ## Integrantes
 - Lucas
-- etc...
+- Mateus
+- Luis
+- Kaylla
+- Eric
+- Saulo
