@@ -19,18 +19,18 @@
 .btn-baixo{
     display: flex;
     justify-content: center;
-    gap: 25px;
-    margin: 25px 0;
+    gap: 50px;
+    margin: 30px 0;
     flex-wrap: wrap;
 }
 
 .mapa{
-    max-width: 1000px;
+    max-width: 1300px;
     margin: 50px auto;
     padding: 0 20px;
 }
 
 .mapa iframe{
-    border-radius: 18px;
+    border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
