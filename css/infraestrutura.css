@@ -1,0 +1,290 @@
+/* PÁGINA INFRAESTRUTURA */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f4f4f4;
+    color: #00111f;
+    line-height: 1.6;
+}
+
+html, body{
+    width: 100%;
+    min-height: 100%;
+}
+
+main{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 35px 60px;
+}
+
+header{
+    width: 100%;
+    background: linear-gradient(135deg, #00111f, #003f54);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header h1{
+    color: white;
+    font-size: 35px;
+}
+
+header span{
+    color: #00c853;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover{
+    color: #a3ffbc;
+}
+
+section {
+  position: relative;
+  z-index: 2;
+    background: #fffffff2;
+  margin: 30px auto;
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 800px;
+  width: 90%;
+
+}
+.hero-saude,
+.hero-infraestrutura{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.hero-saude h2,
+.hero-infraestrutura h2{
+    font-size: 48px;
+    margin-bottom: 24px;
+    color: #00111f;
+    font-weight: 800;
+}
+
+.hero-saude p,
+.hero-infraestrutura p{
+    max-width: 920px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: #10202a;
+}
+
+.container-problemas{
+    padding-bottom: 15px;
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card-problema{
+    background-color: #ffffff;
+    padding: 28px;
+    border-radius: 26px;
+    border-top: 6px solid #00c853;
+    box-shadow: 0 18px 40px rgba(0,0,0,0.12);
+    transition: transform 0.28s cubic-bezier(.2,.9,.2,1), box-shadow 0.28s ease;
+    min-height: 180px;
+}
+
+/* Infraestrutura */ 
+.hero-infraestrutura {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 14px 34px rgba(0,0,0,0.12);
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 30px auto 35px;
+}
+
+.container-problemas {
+    
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card-problema:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 18px 34px rgba(0,0,0,0.16);
+}
+
+.card-icone{
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.card-problema h3{
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.card-problema p{
+    line-height: 1.7;
+    color: #374151;
+}
+
+.botoes-acoes{
+    position: relative;
+    z-index: 3;
+    margin: 40px auto 0;
+    max-width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #09ff00;
+    color: #00111f;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: 700;
+    min-width: 140px;
+    font-size: 15px;
+}
+
+.btn:hover{
+    background-color: #05e62a;
+    color: #09ff00;
+}
+
+.container{
+    max-width: 760px;
+    margin: 40px auto;
+    background-color: #09ff00;
+    padding: 32px;
+    border-radius: 40px;
+    box-shadow: 0 14px 34px rgba(0,0,0,0.12);
+}
+
+.formulario h2{
+    text-align: center;
+    margin-bottom: 28px;
+    color: #00111f;
+}
+
+.grupo{
+    border: none;
+}
+
+.formulario label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea{
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 18px;
+    border: 1px solid #d2d6db;
+    border-radius: 18px;
+    font-size: 15px;
+    background-color: #fafbfc;
+}
+
+.formulario textarea{
+    min-height: 150px;
+    resize: vertical;
+}
+
+.formulario button{
+    width: 100%;
+    background-color: #00c853;
+    color: #00111f;
+    border: none;
+    padding: 16px 20px;
+    border-radius: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.formulario button:hover{
+    background-color: #00a844;
+    color: #ffffff;
+}
+
+@media (max-width: 850px) {
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 18px 30px;
+    }
+
+    main{
+        padding: 30px 30px;
+    }
+}
+
+@media (max-width: 620px) {
+    header h1{
+        font-size: 28px;
+    }
+
+    nav{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .botoes-acoes{
+        flex-direction: column;
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    .container{
+        padding: 24px;
+        margin: 24px 16px;
+    }
+}
+
