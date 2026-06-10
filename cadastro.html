@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+        <h1>Cidadão <span>Ativo</span></h1>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="saude.html">Saúde</a>
+            <a href="denuncia-saude.html">Denúncia</a>
+            <a href="voluntariado-saude.html">Voluntariado</a>
+            <a href="login.html">Login</a>
+            <a href="urbano.html">Urbano</a>
+        </nav>
+    </header>
+    
+    <main class="container-login">
+
+    <section class="card-login">
+    <h2>Criar Conta</h2>
+
+    <form onsubmit="mostrarCadastro(event)">
+
+        <label for="nome-cadastro">Nome</label>
+        <input type="text" id="nome-cadastro" placeholder="Digite seu nome" required>
+
+        <label for="email-cadastro">Email</label>
+        <input type="email" id="email-cadastro" placeholder="Digite seu email" required>
+
+        <label for="senha-cadastro">Senha</label>
+        <input type="password" id="senha-cadastro" placeholder="Crie uma senha" required>
+
+        <button type="submit">Cadastrar</button>
+
+    </form>
+    <p>
+    Já possui uma conta?
+    <a href="login.html">Entrar</a>
+</p>
+</section>
+
+</main>
+
+<script>
+    function mostrarCadastro(event){
+        event.preventDefault();
+        alert("Cadastro efetuado com sucesso!");
+        window.location.href = "login.html";
+    }
+</script>
+</body>
+</html>
