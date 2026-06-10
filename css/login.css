@@ -1,0 +1,65 @@
+/* LOGIN E CADASTRO */
+.container-login{
+    padding: 35px 60px;
+}
+
+.card-login{
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 45px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.card-login h2{
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+
+.card-login label{
+    display: block;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-login input{
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.card-login button{
+    background-color: #00c853;
+    color: #00111f;
+    border: none;
+    width: 100%;
+    padding: 18px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.card-login button:hover{
+    background-color: #00a844;
+    color: white;
+}
+
+.card-login p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card-login a{
+    color: #00a844;
+    font-weight: bold;
+    text-decoration: none;
+}

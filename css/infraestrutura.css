@@ -1,0 +1,25 @@
+/* PÁGINA INFRAESTRUTURA */
+
+
+/* BOTÕES */
+.botoes-acoes{
+    margin-top: 75px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #09ff00;
+    color: #00111f;
+    text-decoration: none;
+    padding: 15px 15px;
+    border-radius: 100px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #00a844;
+    color: white;
+}

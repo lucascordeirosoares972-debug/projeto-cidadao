@@ -1,0 +1,36 @@
+/* HOME */
+.bem-vindo{
+    text-align: center;
+    padding: 60px 20px 30px;
+}
+
+.bem-vindo h2{
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: #00111f;
+}
+
+.bem-vindo p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.btn-cima,
+.btn-baixo{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0;
+    flex-wrap: wrap;
+}
+
+.mapa{
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.mapa iframe{
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
