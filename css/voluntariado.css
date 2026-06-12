@@ -41,7 +41,7 @@
 }
 
 .formulario button{
-    background-color: #00c853;
+    background-color: #05e62a;
     color: #00111f;
     border: none;
     padding: 14px 25px;
@@ -52,12 +52,12 @@
 }
 
 .formulario button:hover{
-    background-color: #09ff00;
+    background-color: #05e62a;
     color: white;
 }
 
 .formulario_border{
-     border: 10px solid #028835;
+     border: 10px solid #05e62a;
 }
 
 .container-problemas{
@@ -76,7 +76,7 @@
     background-color: #ffffff;
     padding: 20px;
     border-radius: 18px;
-    border-top: 5px solid #00ff44;
+    border-top: 5px solid #05e62a;
     box-shadow: 0 12px 28px rgba(0,0,0,0.12);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     min-height: 140px;
@@ -106,7 +106,7 @@
     max-width: 900px;
     margin: 40px auto;
     padding: 30px 25px;
-    background-color: #ffffff;
+    background-color: #cac3c3;
     border-radius: 25px;
     box-shadow: 0 12px 28px rgba(0,0,0,0.10);
     text-align: center;
@@ -131,7 +131,7 @@
     margin: 18px 0;
 }
 .category-btn{
-    background-color: #00c853;
+    background-color: #05e62a;
     color: #00111f;
      text-decoration: none;
       padding: 10px 20px;
@@ -152,6 +152,3 @@
      color: inherit;
       text-decoration: none;
 }
-
-
-
