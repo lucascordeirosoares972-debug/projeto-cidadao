@@ -1,36 +1,56 @@
-/* HOME */
-.bem-vindo{
-    text-align: center;
-    padding: 60px 20px 30px;
+.hero-home{
+    background-image: url("../IMG/banner-home.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
 }
 
 .bem-vindo h2{
-    font-size: 42px;
-    margin-bottom: 15px;
-    color: #00111f;
+    color: white;
+    font-size: 36px;
 }
 
 .bem-vindo p{
+    color: white;
     font-size: 18px;
-    line-height: 1.6;
 }
 
-.btn-cima,
-.btn-baixo{
+.container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botoes {
+    display: flex;
     gap: 50px;
-    margin: 30px 0;
+    margin-top: 30px;
+    justify-content: center;
     flex-wrap: wrap;
+    margin-left: 0;
+    
 }
 
-.mapa{
-    max-width: 1300px;
-    margin: 50px auto;
-    padding: 0 20px;
+.texto-do-lado {
+    width: 80%;
+    padding: 20px;
+    background-color: #1e425c;
+    color: #f2f2f3;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(5, 8, 0, 0.582);
+    margin-left: 0;
+    margin-top: 50px;
 }
 
-.mapa iframe{
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+.mapa {
+    margin-top: 90px;
+    max-width: 1000px;
+    margin: 30px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(57, 63, 3, 0.459);
 }
