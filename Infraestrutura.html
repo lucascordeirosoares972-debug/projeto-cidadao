@@ -1,26 +1,22 @@
-<!--TODO: 1 - LINKAR CSS E IMG
-        2 - NAVBAR
-        3 - LEMBRAR H1..., P, MAIN, SECTION 
-        4 - CARDS DE PROBLEMAS COM DIV (HERO NO CSS)
-        5 - BOTÕES DO FINAL
-        6 - LINKAR LINKAR -->
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cidadão ativo</title>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voluntariado Animais</title>
 
     <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/infraestrutura.css">
+    <link rel="stylesheet" href="css/animais.css">
+
 </head>
-<body>    
+
+<body>
 
     <header>
-        <h1>Cidadão <span>Ativo</span></h1>
-
-        <nav>
+            <div>
+                <h1>Cidadão<span>Ativo</span></h1>
+            </div>
+        <nav class="menu">
             <a href="index.html">Início</a>
             <a href="denuncia-principal.html">Denúncia</a>
             <a href="voluntariado-principal.html">Voluntariado</a>
@@ -30,59 +26,57 @@
         </nav>
     </header>
 
-    <main>
-        <section class="hero-infraestrutura">
+    <section class="hero">
+        <div>
+            <h2>🏗️ <span>Infraestrutura  </span> Urbana </h2>
+            <p>                A infraestrutura urbana é a base que sustenta o desenvolvimento de uma cidade. Ela inclui <strong>vias, iluminação pública, saneamento, transporte e manutenção de espaços públicos</strong> que garantem qualidade de vida, segurança e acessibilidade para todos os cidadãos.
+</p>
+            <div class="botoes-acoes">
+            <a href="index.html" class="btn">Voltar para início</a>
+            <a href="denuncia.infraestrutura.html" class="btn">Denúncia</a>
+            <a href="voluntariado.infraestrutura.html" class="btn">Voluntariado</a>
+            <a href="centralajuda.html" class="btn">Central de Ajuda</a>
+        </div>
+        </div>
 
-            <h2>Infraestrutura Urbana</h2>
-
-            <p>
-                A infraestrutura urbana é a base que sustenta o desenvolvimento de uma cidade. Ela inclui <strong>vias, iluminação pública, saneamento, transporte e manutenção de espaços públicos</strong> que garantem qualidade de vida, segurança e acessibilidade para todos os cidadãos.
-            </p>
-        </section>
-
-        <section class="container-problemas">
-            <div class="cards-grid">
-            
-         <div class="card-problema">
-            <div class="card-icone">🛣️</div>
-            <h3>Buracos no Asfalto</h3>
+        <div>
+            <img src="IMG/Gemini_Generated_Image_kynidwkynidwkyni.png"alt="predio">
+        </div>
+    </section>
+        
+    <section class="ajuda">
+            <h2>Principais Desafios da Infraestrutura Urbana</h2>
+            <div class="cards">
+            <div class="card">
+            <h3>🛣️ Buracos no Asfalto</h3>
             <p>Solicitação para reparo de buracos no asfalto que prejudicam a segurança de pedestres e motoristas.</p>
-         </div>
+        </div>
 
-         <div class="card-problema">
-            <div class="card-icone">🕳️</div>
-            <h3>Bueiro Obstruído</h3>
-            <p>Obstrução de bueiros e canais de esgoto que causam alagamentos em períodos de chuva.</p>
-         </div>
-         <div class="card-problema">
-            <div class="card-icone">💡</div>
-            <h3>Falta de Iluminação</h3>
+        <div class="card">
+            <h3>🕳️ Bueiro Obstruído</h3>
+            <p>Obstrução de bueiros e canais de esgoto que causam alagamentos em períodos de chuva. </p>
+        </div>
+
+        <div class="card">
+            <h3>💡 Falta de Iluminação</h3>
             <p>Ausência de iluminação adequada em áreas públicas, gerando insegurança e risco de acidentes.</p>
-         </div>
-        <div class="card-problema">
-            <div class="card-icone">🌳</div>
-            <h3>Poda de Árvores</h3>
+        </div>
+
+        <div class="card">
+            <h3>🌳Poda de Árvores</h3>
             <p>Solicitação para poda de árvores em áreas públicas que apresentam risco à população.</p>
-         </div>
+        </div>
 
-         <div class="card-problema">
-            <div class="card-icone">🚶</div>
-            <h3>Calçadas Danificadas</h3>
+        <div class="card">
+            <h3>🚶 Calçadas Danificadas</h3>
             <p>Solicitação para reparação de calçadas e passeios públicos em mau estado de conservação.</p>
-         </div>
-    
-    </div>
-</section>
+        </div>
 
-
-/*PRECISO COLOCAR ESSES BOTOES EM TODAS AS PÁGINAS DE CATEGORIA DE PROBLEMAS*/
-     <div class="botoes-acoes">
-     <a href="index.html" class="btn">Voltar para início</a>
-     <a href="denuncia.infraestrutura.html" class="btn">Denúncia</a>
-     <a href="voluntariado.infraestrutura.html" class="btn">Voluntariado</a>
-     <a href="centralajuda.html" class="btn">Central de Ajuda</a>
-    </div>
-    </main>
+    </section>
+        <footer>
+            <strong>CidadãoAtivo © 2026</strong>
+            <br>Projeto social desenvolvido em HTML.
+        </footer>
 
 </body>
 </html>

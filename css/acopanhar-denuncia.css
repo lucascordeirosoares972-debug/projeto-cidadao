@@ -1,0 +1,107 @@
+.hero-denuncia{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero-denuncia h2{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hero-denuncia p{
+    font-size:18px;
+    color:#666;
+}
+
+.pesquisa{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+
+    margin-bottom:60px;
+}
+
+.pesquisa input{
+    width:400px;
+
+    padding:15px;
+
+    border:1px solid #ddd;
+    border-radius:8px;
+
+    font-size:16px;
+}
+
+.pesquisa button{
+    padding:15px 30px;
+
+    border:none;
+    border-radius:8px;
+
+    background:#00c853;
+    color:white;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.pesquisa button:hover{
+    transform:translateY(-3px);
+}
+
+.denuncias{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+
+    flex-wrap:wrap;
+}
+
+.card-denuncia{
+    background: white;
+
+    width: 350px;
+
+    padding: 25px;
+
+    /* detalhe verde */
+    border-top: 6px solid #00c853;
+
+    border-radius: 40px 40px 20px 20px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+    transition: 0.3s;
+}
+
+.card-denuncia:hover{
+    transform: translateY(-10px);
+}
+
+.card-denuncia h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.card-denuncia p{
+    color:#666;
+    margin-bottom:15px;
+}
+
+.status{
+    display:inline-block;
+    padding:8px 15px;
+    border-radius:20px;
+    font-weight:bold;
+}
+
+.andamento{
+    background:#fff3cd;
+    color:#856404;
+}
+
+.resolvido{
+    background:#d4edda;
+    color:#155724;
+}
